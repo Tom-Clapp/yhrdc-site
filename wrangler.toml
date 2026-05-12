@@ -1,0 +1,9 @@
+# Cloudflare Workers config — tells `wrangler deploy` how to publish this site.
+# Used by Cloudflare's GitHub auto-deploy: every push to main triggers a build,
+# Wrangler reads this file, and uploads everything in the repo as static assets.
+
+name = "yhrdc-site"
+compatibility_date = "2026-05-12"
+
+[assets]
+directory = "./"
