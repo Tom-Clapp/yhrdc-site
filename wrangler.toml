@@ -4,7 +4,7 @@
 
 name = "yhrdc-site"
 compatibility_date = "2026-05-12"
+preview_urls = false
 
 [assets]
 directory = "./"
-preview_urls = false
